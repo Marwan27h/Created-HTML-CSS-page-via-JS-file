@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+           height: 5000px;
+        }
+        .up{
+            background-color: brown;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            color:white;
+            padding: 10px;
+            display : none;
+            cursor: pointer;
+            
+        }
+        ul li {
+           display: inline-block;
+            text-align: center;
+            width: 60px;
+            height: 60px;
+            border: 2px solid black;
+            opacity: 0.4;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-left:70px;
+        }
+        ul li.active,
+        ul li:hover {
+            opacity: 1;
+        }
+        ul li:nth-child(2){
+            background-color: yellow;
+        }
+        ul li:nth-child(1) {
+            background-color: red;
+        }
+        ul li:nth-child(3){
+            background-color: black;
+            color: white;
+        }
+        ul li:nth-child(4){
+            background-color: green;
+        }
+        .experiment{
+            width: 400px;
+            height: 400px;
+            margin: 0;
+            background-color: red;
+            margin-left:100px ;
+        }
+     
+         
+    </style>
+    <ul>
+        <li class="active" data-color = "red"></li>
+        <li data-color = "green"></li>
+        <li data-color = "black"></li>
+        <li data-color = "yellow"> </li>
+        </ul>
+        <div class="experiment"></div>
+    <button class="up">click</button>
+    <button class="four" type = "submit"></button>
+    <div id = "three"><p>element</p></div>
+    <p class ="test">i am Marian</p>
+    <form  action = "">
+    <input class = "one" type="text" name="userName" >
+    <input class = "two" type="text" name="age" >
+    <button type = "submit"  value ="submit-data"></button>
+    </form>
+<a href="http://www.google.com">google</a>
+
+    <script src="Maximum subarray sum.js"></script>
+    
+</body>
+</html>
